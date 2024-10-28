@@ -34,7 +34,12 @@ export default function RootLayout({
           <div className="container mx-auto flex items-center justify-between">
             {/* Logo */}
             <a href="#home-page" className="flex-shrink-0">
-              <Image src="/images/logo.png" width={100} height={100} alt="Logo" />
+              <Image
+                src="/images/logo.png"
+                width={100}
+                height={100}
+                alt="Logo"
+              />
             </a>
 
             {/* Navigation and Button Container */}
@@ -75,7 +80,7 @@ export default function RootLayout({
                   </li>
                   <li>
                     <a
-                      href="#content"
+                      href="#pricing"
                       className="hover:text-yellow-400 transition duration-300"
                     >
                       Our Pricing

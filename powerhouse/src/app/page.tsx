@@ -1,9 +1,15 @@
+import Classes from "./components/Classes";
 import HeroSection from "./components/HeroSection";
+import OurStory from "./components/OurStory";
+import Pricing from "./components/Pricing";
 
 export default function Home() {
   return (
     <>
       <HeroSection />
+      <OurStory />
+      <Classes />
+      <Pricing />
       <section className="py-20 bg-white">
         <div className="container mx-auto px-6">
           <h2 className="text-4xl font-bold text-center mb-12">
