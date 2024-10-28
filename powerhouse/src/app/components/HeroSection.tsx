@@ -33,7 +33,7 @@ export default function HeroSection() {
           </button>
         </div>
 
-        <div className="absolute top-10 right-[385px]">
+        <div className="absolute top-10 right-[385px] transition-all duration-300 hover:drop-shadow-[0_0_25px_rgba(255,255,255,0.5)]">
           <Image
             src="/images/banner_img_2.png"
             alt="Female athlete"
@@ -42,7 +42,7 @@ export default function HeroSection() {
           />
         </div>
 
-        <div className="absolute bottom-10 right-0">
+        <div className="absolute bottom-10 right-0 transition-all duration-300 hover:drop-shadow-[0_0_25px_rgba(255,255,255,0.5)]">
           <Image
             src="/images/banner_img_1.png"
             alt="Male athlete"
