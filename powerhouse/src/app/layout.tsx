@@ -119,7 +119,7 @@ export default function RootLayout({
           <div className="container mx-auto px-6">
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
               <div>
-                <h3 className="text-xl font-bold mb-4">FitLife Gym</h3>
+                <h3 className="text-xl font-bold mb-4">PowerHouse Gym</h3>
                 <p className="text-gray-400">
                   Transform your body and mind with our expert training
                   programs.
@@ -164,12 +164,12 @@ export default function RootLayout({
                   <li>123 Fitness Street</li>
                   <li>New York, NY 10001</li>
                   <li>Phone: (555) 123-4567</li>
-                  <li>Email: info@fitlifegym.com</li>
+                  <li>Email: info@powerhousegym.com</li>
                 </ul>
               </div>
             </div>
             <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-              <p>&copy; 2024 FitLife Gym. All rights reserved.</p>
+              <p>&copy; 2024 PowerHouse Gym. All rights reserved.</p>
             </div>
           </div>
         </footer>

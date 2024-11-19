@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function HeroSection() {
   return (
-    <section className="h-[660px] p-0 bg-[url('/images/banner_bg.png')] bg-bottom bg-no-repeat bg-cover mt-[120px]">
+    <section className="h-[660px] py-3 md:py-6 bg-[url('/images/banner_bg.png')] bg-bottom bg-no-repeat bg-cover mt-[72px]">
       <div className="h-[660px] relative container mx-auto">
         <div className="w-1/2 absolute top-1/2 -translate-y-1/2 text-white">
           <h2 className="mb-5 font-light text-4xl">Build Your Body &</h2>
